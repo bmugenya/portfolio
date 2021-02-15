@@ -1,5 +1,5 @@
 .timeline {
-  padding: 0 important;
+  padding: 0 !important;
 }
 
 .timeline .timeline_header {
@@ -25,13 +25,10 @@
 }
 
 .timeline .timeline_dot {
-  color: black;
-  padding: 2px;
-  border-color: var(--main-color);
-}
-
-.timeline .MuiTimelineItem-root {
-  background-color: #eee;
+  color: black !important;
+  padding: 2px !important;
+  border-color: var(--main-color) !important;
+  font-size: small;
 }
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root {

@@ -13,7 +13,6 @@ const CustomTimelineItem = ({ title, text, link }) => (
   <TimelineItem>
     <CustomTimelineSeparator />
     <TimelineContent>
-      <span>{title}</span>
       {link ? (
         <Typography className='timeline_text'>
           <span>{title}:</span>{' '}
@@ -36,6 +35,7 @@ const Profile = () => {
       <div className='profile_name'>
         <Typography className='name'>{data.name}</Typography>
         <Typography className='title'>{data.title}</Typography>
+        <br />
       </div>
 
       <figure className='profile_image'>

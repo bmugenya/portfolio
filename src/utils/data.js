@@ -12,23 +12,25 @@ export default {
   socials: {
     facebook: {
       link: 'https://www.facebook.com/misty.builder',
-      text: 'shinobi',
+      text: 'Friend me on Facebook',
       icon: <FacebookIcon />,
     },
     twitter: {
       link: 'https://twitter.com/BrianMugenya',
-      text: 'shinobi',
+      text: 'Follow me on Twitter',
       icon: <TwitterIcon />,
     },
     linkedin: {
       link: 'https://www.linkedin.com/in/brian-mugenya-007/',
-      text: 'shinobi',
+      text: 'Connect with me on Linkedin',
       icon: <LinkedInIcon />,
     },
     github: {
       link: 'https://www.github.com/bmugenya',
-      text: 'shinobi',
+      text: 'View my work on Github',
       icon: <GitHubIcon />,
     },
   },
+  about:
+    'I have a proficiency of bring others together to resolve conflicts and reconciling differences through negotiation. I am calm and collected even under stressful situations .I am strongly passionate about innovative ideas and problem-solving using programming technologies.\n\nI am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.',
 }
