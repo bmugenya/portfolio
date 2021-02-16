@@ -20,9 +20,15 @@
 .p_30 {
   padding: 30px;
 }
-
+.pt_45 {
+  padding-top: 45px;
+}
 .pb_45 {
   padding-bottom: 45px;
+}
+
+.p_50 {
+  padding: 50px;
 }
 
 @media (max-width: 991px) {
@@ -59,4 +65,12 @@
   opacity: 0.4;
   left: 0;
   background-color: var(--main-color);
+}
+
+.section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.graybg {
+  background-color: #fafafa;
 }

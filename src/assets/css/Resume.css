@@ -4,3 +4,72 @@
   line-height: 22px;
   white-space: pre-line;
 }
+
+.resume_timeline .timeline_content .timetable_title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.resume_timeline .timeline_content .timetable_date {
+  color: darkslategray;
+}
+
+.resume_timeline .timeline_content .timetable_description {
+  color: gray;
+  font-size: small;
+  font-weight: 6px;
+}
+
+.service {
+  height: 100%;
+  text-align: center;
+}
+
+.service .service_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+}
+
+.service .service_description {
+  color: #909898;
+  border-color: var(--main-color);
+  margin-right: 5px;
+  text-align: center;
+}
+
+.service_icon .MuiSvgIcon-root {
+  font-size: 46px;
+  margin-left: 0;
+  font-weight: 300;
+  color: darkslategray;
+}
+
+.skill {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 0, 4, 0.08) !important;
+  min-height: 186px;
+  height: 100%;
+}
+
+.skill .skill_title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.skill .skill_description {
+  display: flex;
+  align-items: center;
+  color: #080808;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.skill .skill_description .timeline_dot {
+  border-color: var(--main-color);
+  padding: 2px;
+  margin-right: 5px;
+}
