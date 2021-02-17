@@ -8,6 +8,7 @@ import TimelineItem from '@material-ui/lab/TimelineItem'
 import SchoolIcon from '@material-ui/icons/School'
 import TimelineDot from '@material-ui/lab/TimelineDot'
 import CustomButton from '../components/Button'
+import '../assets/css/Resume.css'
 const Resume = () => {
   return (
     <>

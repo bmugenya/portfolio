@@ -114,8 +114,9 @@ export default {
     {
       tag: 'Flask',
       image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
       title: 'Rafiki',
+      caption: 'Rafiki offers a haven for anonymous communication',
       description:
         "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
       links: [
@@ -129,8 +130,9 @@ export default {
     {
       tag: 'React',
       image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
       title: 'Rafiki',
+      caption: 'Rafiki offers a haven for anonymous communication',
       description:
         "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
       links: [
@@ -144,8 +146,9 @@ export default {
     {
       tag: 'Flask',
       image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
       title: 'Rafiki',
+      caption: 'Rafiki offers a haven for anonymous communication',
       description:
         "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
       links: [
@@ -159,8 +162,9 @@ export default {
     {
       tag: 'Flask',
       image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
       title: 'Rafiki',
+      caption: 'Rafiki offers a haven for anonymous communication',
       description:
         "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
       links: [
