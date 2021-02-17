@@ -61,7 +61,7 @@
 }
 
 .skill .skill_description {
-  display: flex;
+  display: flex !important;
   align-items: center;
   color: #080808;
   font-weight: 400;
@@ -69,7 +69,27 @@
 }
 
 .skill .skill_description .timeline_dot {
-  border-color: var(--main-color);
+  border-color: var(--main-color) !important;
   padding: 2px;
   margin-right: 5px;
+}
+
+.conatct_info {
+  font-size: 14px;
+  color: #787878;
+  line-height: 34px;
+}
+.contact_info > span {
+  color: black;
+  font-weight: 500;
+}
+
+.contact_box {
+  margin-top: 25px;
+}
+
+.contact_social > a > .MuiSvgIcon-root {
+  font-size: 16px;
+  margin-right: 10px;
+  color: black;
 }

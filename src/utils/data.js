@@ -10,6 +10,7 @@ export default {
   birthday: '26th November 1995',
   email: 'bmugenya26@gmail.com',
   phone: '+254 700577453',
+  address: 'Nairobi, Kenya',
   socials: {
     facebook: {
       link: 'https://www.facebook.com/misty.builder',
@@ -105,8 +106,70 @@ export default {
       description: ['Flask', 'ExpressJs', 'Javascript', 'php'],
     },
     {
-      title: 'FRONT-END',
-      description: ['ReactJs', 'Javascript', 'Bootsrap', 'Material UI'],
+      title: 'DATABASE',
+      description: ['Postgres', ' Mysql', 'SqlAlchemy', ' MongoDB'],
+    },
+  ],
+  projects: [
+    {
+      tag: 'Flask',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+      title: 'Rafiki',
+      description:
+        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
+      links: [
+        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
+        {
+          link: 'https://rafiki-app.herokuapp.com/rafiki/',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+      title: 'Rafiki',
+      description:
+        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
+      links: [
+        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
+        {
+          link: 'https://rafiki-app.herokuapp.com/rafiki/',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'Flask',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+      title: 'Rafiki',
+      description:
+        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
+      links: [
+        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
+        {
+          link: 'https://rafiki-app.herokuapp.com/rafiki/',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'Flask',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqrZ_ODsnrLnDEa1vPjmA3kpyuTAZ66zcOlw&usqp=CAU',
+      title: 'Rafiki',
+      description:
+        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
+      links: [
+        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
+        {
+          link: 'https://rafiki-app.herokuapp.com/rafiki/',
+          icon: <GitHubIcon />,
+        },
+      ],
     },
   ],
 }
