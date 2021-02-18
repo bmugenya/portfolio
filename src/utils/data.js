@@ -11,7 +11,13 @@ export default {
   email: 'bmugenya26@gmail.com',
   phone: '+254 700577453',
   address: 'Nairobi, Kenya',
+
   socials: {
+    badges: {
+      link: 'https://www.youracclaim.com/users/brian-mugenya/badges',
+      text: 'Find my badges on Acclaim',
+    },
+
     facebook: {
       link: 'https://www.facebook.com/misty.builder',
       text: 'Friend me on Facebook',
@@ -58,22 +64,19 @@ export default {
   ],
   education: [
     {
-      title: 'work',
-      date: 'date',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Andela Fellowship Bootcamp',
+      date: '2018 - 4 Weeks',
+      description: 'Bsc. in Business Information Technology',
     },
     {
-      title: 'work',
-      date: 'date',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Africa Nazarene University',
+      date: '2016 - To Date',
+      description: 'Bsc. in Business Information Technology',
     },
     {
-      title: 'work',
-      date: 'date',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Laiser Hill Academy ',
+      date: '2013 - 2016',
+      description: 'O – Level',
     },
   ],
   services: [

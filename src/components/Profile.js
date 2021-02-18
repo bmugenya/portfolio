@@ -3,7 +3,6 @@ import CustomTimeline, { CustomTimelineSeparator } from './Timeline'
 import '../assets/css/Profile.css'
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline'
 import data from '../utils/data'
-
 import TimelineItem from '@material-ui/lab/TimelineItem'
 import TimelineContent from '@material-ui/lab/TimelineContent'
 import GetAppIcon from '@material-ui/icons/GetApp'
@@ -29,6 +28,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
     </TimelineContent>
   </TimelineItem>
 )
+
 const Profile = () => {
   return (
     <div className='profile container_shadow'>
@@ -40,7 +40,7 @@ const Profile = () => {
 
       <figure className='profile_image'>
         <img
-          src='https://besthqwallpapers.com/Uploads/13-8-2019/101075/thumb2-pain-naruto-characters-ninja-manga-nagato.jpg'
+          src='https://res.cloudinary.com/doammcpie/image/upload/v1613640364/33225184_wbgtri.png'
           alt='profile'
         />
       </figure>
