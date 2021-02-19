@@ -3,6 +3,7 @@ import FacebookIcon from '@material-ui/icons/Facebook'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
+import GradeIcon from '@material-ui/icons/Grade'
 import { WebOutlined } from '@material-ui/icons'
 export default {
   name: 'Brian Mugenya',
@@ -13,11 +14,6 @@ export default {
   address: 'Nairobi, Kenya',
 
   socials: {
-    badges: {
-      link: 'https://www.youracclaim.com/users/brian-mugenya/badges',
-      text: 'Find my badges on Acclaim',
-    },
-
     facebook: {
       link: 'https://www.facebook.com/misty.builder',
       text: 'Friend me on Facebook',
@@ -38,28 +34,30 @@ export default {
       text: 'View my work on Github',
       icon: <GitHubIcon />,
     },
+    badges: {
+      link: 'https://www.youracclaim.com/users/brian-mugenya/badges',
+      text: 'Find my badges on Acclaim',
+      icon: <GradeIcon />,
+    },
   },
   about:
     'I have a proficiency of bring others together to resolve conflicts and reconciling differences through negotiation. I am calm and collected even under stressful situations .I am strongly passionate about innovative ideas and problem-solving using programming technologies.\n\nI am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.',
 
   certifications: [
     {
-      title: 'work',
-      date: 'date',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'FreeCodeCamp',
+      date: 'Feb 1st 2021 - (Pursuring)',
+      description: 'Front End Development Libraries',
     },
     {
-      title: 'work',
-      date: 'date',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Internet Society',
+      date: 'July 6th - August 19th 2018',
+      description: 'Network Operations: UNIX/Linux,  Networking and DNS',
     },
     {
-      title: 'work',
-      date: 'date',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Google',
+      date: 'June 29th 2018',
+      description: 'Google Digital Skills for Africa',
     },
   ],
   education: [
@@ -81,21 +79,18 @@ export default {
   ],
   services: [
     {
-      title: 'work',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Web Development',
+      description: 'I have been working on web design for over 4 years',
       icon: <WebOutlined />,
     },
     {
-      title: 'work',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Branding Identity',
+      description: 'I will make you a brand that is catchy and leaves a trace.',
       icon: <WebOutlined />,
     },
     {
-      title: 'work',
-      description:
-        'together to resolve conflicts and reconciling differences through negotiation',
+      title: 'Fast Deliver',
+      description: 'I create and deliver projects as fast as possible.',
       icon: <WebOutlined />,
     },
   ],
@@ -106,11 +101,11 @@ export default {
     },
     {
       title: 'BACK-END',
-      description: ['Flask', 'ExpressJs', 'Javascript', 'php'],
+      description: ['Flask', 'ExpressJS', 'Javascript', 'Php'],
     },
     {
       title: 'DATABASE',
-      description: ['Postgres', ' Mysql', 'SqlAlchemy', ' MongoDB'],
+      description: ['PostgreSQL', ' MySQL', 'SqlAlchemy', ' MongoDB'],
     },
   ],
   projects: [
