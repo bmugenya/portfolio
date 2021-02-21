@@ -41,12 +41,12 @@ export default {
     },
   },
   about:
-    'I have a proficiency of bring others together to resolve conflicts and reconciling differences through negotiation. I am calm and collected even under stressful situations .I am strongly passionate about innovative ideas and problem-solving using programming technologies.\n\nI am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.',
+    'I have a proficiency of bringing others together to resolve conflicts and reconciling differences through negotiation. I am calm and collected even under stressful situations .I am strongly passionate about innovative ideas and problem-solving using programming technologies.\n\nI am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.',
 
   certifications: [
     {
       title: 'FreeCodeCamp',
-      date: 'Feb 1st 2021 - (Pursuring)',
+      date: 'Feb 1st - (Pursuing)',
       description: 'Front End Development Libraries',
     },
     {
@@ -62,9 +62,9 @@ export default {
   ],
   education: [
     {
-      title: 'Andela Fellowship Bootcamp',
+      title: 'Andela',
       date: '2018 - 4 Weeks',
-      description: 'Bsc. in Business Information Technology',
+      description: 'Andela Cycle 35 Fellowship Bootcamp ',
     },
     {
       title: 'Africa Nazarene University',

@@ -10,12 +10,12 @@ const Footer = () => {
       </div>
       <div className='footer_right'>
         <Typography className='footer_copyright'>
-          Developed by{' '}
+          Developed |
           <a href='/' target='_blank'>
             Brian Mugenya
           </a>
           <br />
-          design idea |
+          Designed |
           <a href='https://themeforest.net/user/tavonline'>Travonline</a>
         </Typography>
       </div>
