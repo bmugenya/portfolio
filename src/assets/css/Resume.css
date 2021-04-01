@@ -1,5 +1,5 @@
 .about_text {
-  color: darkslategray;
+  color: white;
   font: smaller;
   line-height: 22px;
   white-space: pre-line;
@@ -11,11 +11,11 @@
 }
 
 .resume_timeline .timeline_content .timetable_date {
-  color: darkslategray;
+  color: white;
 }
 
 .resume_timeline .timeline_content .timetable_description {
-  color: gray;
+  color: white;
   font-size: small;
   font-weight: 6px;
 }
@@ -33,7 +33,7 @@
 }
 
 .service .service_description {
-  color: #909898;
+  color: white;
   border-color: var(--main-color);
   margin-right: 5px;
   text-align: center;
@@ -43,7 +43,7 @@
   font-size: 46px;
   margin-left: 0;
   font-weight: 300;
-  color: darkslategray;
+  color: white;
 }
 
 .skill {
@@ -52,18 +52,20 @@
   box-shadow: 0px 0px 48px 0px rgba(4, 0, 4, 0.08) !important;
   min-height: 186px;
   height: 100%;
+  background-color: #1e1e1e !important;
 }
 
 .skill .skill_title {
   font-size: 14px;
   font-weight: 500;
   line-height: 35px;
+  color: white;
 }
 
 .skill .skill_description {
   display: flex !important;
   align-items: center;
-  color: #080808;
+  color: white;
   font-weight: 400;
   line-height: 18px;
 }
@@ -76,11 +78,11 @@
 
 .conatct_info {
   font-size: 14px;
-  color: #787878;
+  color: white;
   line-height: 34px;
 }
 .contact_info > span {
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
@@ -94,5 +96,5 @@
 .contact_social > a > .MuiSvgIcon-root {
   font-size: 16px;
   margin-right: 10px;
-  color: black;
+  color: white;
 }

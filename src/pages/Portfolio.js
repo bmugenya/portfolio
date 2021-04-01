@@ -19,9 +19,6 @@ import data from '../utils/data'
 const Portfolio = () => {
   const [tabValue, setTabValue] = useState('All')
   const [projectDialog, setProjectDialog] = useState(false)
-  // const ProjectDialog = () => (
-
-  // )
   return (
     <Grid container spacing={1} className='section pb_45 pt_45'>
       {/* Title */}
@@ -52,14 +49,14 @@ const Portfolio = () => {
       </Grid>
       {/* Projects */}
       <Grid item xs={12}>
-        <Grid conatiner spacing={3}>
+        <Grid container spacing={2}>
           {data.projects.map((project) => (
             <>
               {tabValue == project.tag || tabValue == 'All' ? (
                 <Grid item xs={12} sm={6} md={4}>
                   <Grow in timeout={1000}>
                     <Card
-                      className='custom_ card'
+                      className='custom_card'
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>

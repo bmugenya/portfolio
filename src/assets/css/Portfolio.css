@@ -5,6 +5,7 @@
   text-transform: inherit;
   font-size: 14px;
   outline-width: 0px;
+  background-color: #1e1e1e !important;
 }
 
 .custom_tab .active {
@@ -18,6 +19,7 @@
   border-radius: 5px;
   overflow: hidden;
   outline-width: 0px;
+  background: black !important;
 }
 .custom_card .card_img {
   height: 140px;
@@ -28,7 +30,7 @@
 }
 
 .custom_card .card_caption {
-  color: gray;
+  color: white;
   font-weight: 400;
 }
 
@@ -48,7 +50,7 @@
   margin-bottom: 10px;
 }
 .dialog .dialog_icon {
-  color: darkslategray;
+  color: white;
   margin: 0px 12px;
   cursor: pointer;
 }

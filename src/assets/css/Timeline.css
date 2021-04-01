@@ -18,14 +18,14 @@
   display: none;
 }
 .timeline .timeline_dot_header {
-  color: black;
+  color: white;
   font-size: small;
   padding: 10px;
   background-color: var(--main-color);
 }
 
 .timeline .timeline_dot {
-  color: black !important;
+  color: white !important;
   padding: 2px !important;
   border-color: var(--main-color) !important;
   font-size: small;
@@ -33,7 +33,7 @@
 
 .timeline .timeline_dot_header > .MuiSvgIcon-root {
   font-size: 20px;
-  color: darkslategrey;
+  color: white;
 }
 
 .timeline .separator_padding {

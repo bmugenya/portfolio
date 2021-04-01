@@ -60,7 +60,14 @@ const Profile = () => {
         </CustomTimeline>
         <br />
         <div className='button_container'>
-          <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
+          <a
+            className='btn_link'
+            target='_blank'
+            href='https://github.com/bmugenya/CSC-314/raw/master/CV.pdf'
+            download
+          >
+            <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
+          </a>
         </div>
       </div>
     </div>

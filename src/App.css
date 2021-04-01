@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ffc500;
+  --main-color: #d81300;
 }
 .container_shadow {
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
@@ -39,7 +39,8 @@
   }
 }
 .main_content {
-  background-color: white;
+  background-color: #1e1e1e !important;
+  color: white;
   min-height: 100vh;
   border-radius: 6px;
   margin-bottom: 30px;
@@ -53,7 +54,7 @@
 }
 
 .section_title .section_text {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 600;
   position: relative;
   margin: 0;
@@ -74,5 +75,5 @@
   padding-right: 30px;
 }
 .graybg {
-  background-color: #fafafa;
+  background-color: #1e1e1e !important;
 }

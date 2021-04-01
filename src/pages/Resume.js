@@ -91,7 +91,7 @@ const Resume = () => {
       <Grid container className='section pb_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
-          <h5 className='section_title'>My services</h5>
+          <h5 className='section_title'>Talents</h5>
         </Grid>
 
         <Grid item xs={12}>
@@ -99,7 +99,9 @@ const Resume = () => {
             {data.services.map((service) => (
               <Grid item xs={12} sm={6} md={3}>
                 <div className='service'>
-                  <Icon className='service_icon'>{service.icon}</Icon>
+                  <figure className='service_icon'>
+                    <img src={service.icon} alt='profile' />
+                  </figure>
                   <Typography variant='h6' className='service_title'>
                     {service.title}
                   </Typography>
@@ -113,7 +115,10 @@ const Resume = () => {
         </Grid>
       </Grid>
       {/* Skills */}
+
       <Grid container className='section graybg pb_45  p_50'>
+        <span></span>
+        <h5 className='section_title'>Stacks</h5>
         <Grid item xs={12}>
           <Grid container justify='space-between' spacing={3}>
             {data.skills.map((skill) => (
@@ -135,85 +140,6 @@ const Resume = () => {
                 </Paper>
               </Grid>
             ))}
-          </Grid>
-        </Grid>
-      </Grid>
-      {/* Contact */}
-      <Grid container spacing={6} className='section pt_45 pb_45'>
-        {/* Contact form */}
-        <Grid item xs={12} lg={7}>
-          <Grid container>
-            <Grid item className='section_title mb_30'>
-              <span> </span>
-              <h6 className='section_title'>Contact Form</h6>
-            </Grid>
-            <Grid item xs={12}>
-              <Grid container spacing={3}>
-                <Grid item xs={12} sm={6}>
-                  <TextField fullWidth name='name' label='Name' />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <TextField fullWidth name='email' label='Email' />
-                </Grid>
-                <Grid item xs={12}>
-                  <TextField
-                    fullWidth
-                    name='message'
-                    label='Message'
-                    multiline
-                    rows={4}
-                  />
-                </Grid>
-
-                <Grid item xs={12}>
-                  <CustomButton text='Submit' />
-                </Grid>
-              </Grid>
-            </Grid>
-          </Grid>
-        </Grid>
-        {/* Contact info */}
-        <Grid item xs={12} lg={5}>
-          <Grid container>
-            <Grid item className='section_title mb_30'>
-              <span> </span>
-              <h6 className='section_title'>Contact Information</h6>
-            </Grid>
-
-            <Grid item xs={12}>
-              <Grid container>
-                <Grid item xs={12}>
-                  <Typography className='contact_info'>
-                    <span>Address:</span>
-                    {data.address}
-                  </Typography>
-                </Grid>
-                <Grid item xs={12}>
-                  <Typography className='contact_info'>
-                    <span>Phone:</span>
-                    {data.phone}
-                  </Typography>
-                </Grid>
-                <Grid item xs={12}>
-                  <Typography className='contact_info'>
-                    <span>Email:</span>
-                    {data.email}
-                  </Typography>
-                </Grid>
-              </Grid>
-            </Grid>
-
-            <Grid item xs={12}>
-              <Grid container className='contact_box'>
-                {Object.keys(data.socials).map((key) => (
-                  <Grid container className='contact_social'>
-                    <a href={data.socials[key].link}>
-                      {data.socials[key].icon}
-                    </a>
-                  </Grid>
-                ))}
-              </Grid>
-            </Grid>
           </Grid>
         </Grid>
       </Grid>

@@ -1,7 +1,7 @@
 /*------------------------ Profile Section ------------------------*/
 
 .profile {
-  background: #fff;
+  background-color: #1e1e1e !important;
   border-radius: 6px;
   width: 100%;
   display: inline-block;
@@ -14,13 +14,14 @@
 
 .profile_name .name {
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
+  color: white;
 }
 
 .profile_name .title {
-  font-size: 13px;
-  color: #777777;
+  font-size: 17px;
+  color: white;
 }
 
 .profile_image {
@@ -33,6 +34,13 @@
   width: 100%;
 }
 
+.btn_link:hover {
+  text-decoration: none;
+}
+
+.btn_link {
+  color: white;
+}
 .profile_information {
   top: 0;
   left: 0;
@@ -45,16 +53,16 @@
 
 .timeline_text {
   font-size: 13.5px !important;
-  color: #787878 !important;
+  color: white !important;
   font-weight: 400 !important;
 }
 .timeline_text > a {
-  color: #787878 !important;
+  color: white !important;
   text-decoration: none;
 }
 
 .timeline_text > span {
-  color: black;
+  color: white;
 }
 
 .profile .button_container {

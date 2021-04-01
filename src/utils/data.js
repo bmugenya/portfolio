@@ -4,7 +4,8 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import GradeIcon from '@material-ui/icons/Grade'
-import { WebOutlined } from '@material-ui/icons'
+import StarsIcon from '@material-ui/icons/Stars'
+import LinkIcon from '@material-ui/icons/Link'
 export default {
   name: 'Brian Mugenya',
   title: 'Full stack developer',
@@ -14,6 +15,11 @@ export default {
   address: 'Nairobi, Kenya',
 
   socials: {
+    talents: {
+      text: 'Three of my top Talents.',
+      link: 'https://secure.plum.io/en/p/g5Wx3lfhJjj_JR-YvTmjMg/top-talents',
+      icon: <StarsIcon />,
+    },
     facebook: {
       link: 'https://www.facebook.com/misty.builder',
       text: 'Friend me on Facebook',
@@ -36,6 +42,7 @@ export default {
     },
     badges: {
       link: 'https://www.youracclaim.com/users/brian-mugenya/badges',
+
       text: 'Find my badges on Acclaim',
       icon: <GradeIcon />,
     },
@@ -75,24 +82,30 @@ export default {
     {
       title: 'Laiser Hill Academy ',
       date: '2013 - 2016',
-      description: 'O – Level',
+      description: 'A – Level',
     },
   ],
   services: [
     {
-      title: 'Web Development',
-      description: 'I have been working on web design for over 4 years',
-      icon: <WebOutlined />,
+      title: 'TEAM PLAYER',
+      description:
+        'I am able to build positive relationships.I am able to provide support, commit to team goals, and make others feel appreciated.',
+      icon:
+        'https://secure.plum.io/static/common/dimensions/310/color/teamwork.svg',
     },
     {
-      title: 'Branding Identity',
-      description: 'I will make you a brand that is catchy and leaves a trace.',
-      icon: <WebOutlined />,
+      title: 'ADAPTIVE ACE',
+      description:
+        'I am excellent at overcoming obstacles.Im Strong at remaining calm and operating effectively under pressure and multiple demands.',
+      icon:
+        'https://secure.plum.io/static/common/dimensions/301/color/adaptation.svg',
     },
     {
-      title: 'Fast Deliver',
-      description: 'I create and deliver projects as fast as possible.',
-      icon: <WebOutlined />,
+      title: 'OUTCOME OWNER',
+      description:
+        'I have the ability to set goals, monitor progress, and take the initiative to improve your work and persevering even when initially unsuccessful.',
+      icon:
+        'https://secure.plum.io/static/common/dimensions/309/color/execution.svg',
     },
   ],
   skills: [
@@ -119,9 +132,47 @@ export default {
       description:
         "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
       links: [
-        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
         {
           link: 'https://rafiki-app.herokuapp.com/rafiki/',
+          icon: <LinkIcon />,
+        },
+        {
+          link: 'https://github.com/bmugenya/Rafiki',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'Flask',
+      image:
+        'https://res.cloudinary.com/doammcpie/image/upload/v1617264239/tweet_lxdnqa.png',
+      title: 'ZUP',
+      caption: 'Zup is a Twitter sentiment analysis ',
+      description:
+        "Zup is a Twitter sentiment analysis that allows you to keep track of what's being said about a certain topic on twitter, and can help you detect sensentive topics",
+      links: [
+        {
+          link: 'https://github.com/bmugenya/Zup',
+          icon: <GitHubIcon />,
+        },
+        {
+          link: 'https://tweetsenti.herokuapp.com/api/v1/',
+          icon: <LinkIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      image:
+        'https://res.cloudinary.com/doammcpie/image/upload/v1617264239/tough_dfprrp.png',
+      title: 'Tough Arc',
+      caption: 'Tough Arc is a kenyan based manga',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      links: [
+        { link: 'https://tough.netlify.app/', icon: <LinkIcon /> },
+        {
+          link: 'https://github.com/bmugenya/Tough-Arch',
           icon: <GitHubIcon />,
         },
       ],
@@ -129,47 +180,14 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
-      title: 'Rafiki',
-      caption: 'Rafiki offers a haven for anonymous communication',
-      description:
-        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
+        'https://res.cloudinary.com/doammcpie/image/upload/v1617264249/narutopia_nix88h.png',
+      title: 'Narutopia',
+      caption: 'Narutopia is a netflix clone that streams Naruto epsiodes',
+      description: 'Narutopia is a netflix clone that streams Naruto epsiodes',
       links: [
-        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
+        { link: 'https://narutopia.netlify.app/', icon: <LinkIcon /> },
         {
-          link: 'https://rafiki-app.herokuapp.com/rafiki/',
-          icon: <GitHubIcon />,
-        },
-      ],
-    },
-    {
-      tag: 'Flask',
-      image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
-      title: 'Rafiki',
-      caption: 'Rafiki offers a haven for anonymous communication',
-      description:
-        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
-      links: [
-        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
-        {
-          link: 'https://rafiki-app.herokuapp.com/rafiki/',
-          icon: <GitHubIcon />,
-        },
-      ],
-    },
-    {
-      tag: 'Flask',
-      image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
-      title: 'Rafiki',
-      caption: 'Rafiki offers a haven for anonymous communication',
-      description:
-        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
-      links: [
-        { link: 'https://rafiki-app.herokuapp.com/rafiki/' },
-        {
-          link: 'https://rafiki-app.herokuapp.com/rafiki/',
+          link: 'https://github.com/bmugenya/Narutopia',
           icon: <GitHubIcon />,
         },
       ],
