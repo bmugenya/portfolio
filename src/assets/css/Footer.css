@@ -1,6 +1,6 @@
 .footer {
-  background: #1e1e1e;
-  color: #fff;
+  color: #333;
+  background-color: #fff !important;
   border-radius: 8px;
   flex-wrap: wrap;
   display: flex;
@@ -11,7 +11,7 @@
 }
 
 .footer .footer_copyright {
-  color: white;
+  color: black;
   font-size: small;
   text-align: end;
 }

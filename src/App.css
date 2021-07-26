@@ -39,8 +39,8 @@
   }
 }
 .main_content {
-  background-color: #1e1e1e !important;
-  color: white;
+  color: #333;
+  background-color: #fff !important;
   min-height: 100vh;
   border-radius: 6px;
   margin-bottom: 30px;

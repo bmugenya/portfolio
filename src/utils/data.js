@@ -90,22 +90,19 @@ export default {
       title: 'TEAM PLAYER',
       description:
         'I am able to build positive relationships.I am able to provide support, commit to team goals, and make others feel appreciated.',
-      icon:
-        'https://secure.plum.io/static/common/dimensions/310/color/teamwork.svg',
+      icon: 'https://secure.plum.io/static/common/dimensions/310/color/teamwork.svg',
     },
     {
       title: 'ADAPTIVE ACE',
       description:
         'I am excellent at overcoming obstacles.Im Strong at remaining calm and operating effectively under pressure and multiple demands.',
-      icon:
-        'https://secure.plum.io/static/common/dimensions/301/color/adaptation.svg',
+      icon: 'https://secure.plum.io/static/common/dimensions/301/color/adaptation.svg',
     },
     {
       title: 'OUTCOME OWNER',
       description:
         'I have the ability to set goals, monitor progress, and take the initiative to improve your work and persevering even when initially unsuccessful.',
-      icon:
-        'https://secure.plum.io/static/common/dimensions/309/color/execution.svg',
+      icon: 'https://secure.plum.io/static/common/dimensions/309/color/execution.svg',
     },
   ],
   skills: [
@@ -126,7 +123,7 @@ export default {
     {
       tag: 'Flask',
       image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1613579453/rafiki.png',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627105121/rafiki_oa6tqk.webm',
       title: 'Rafiki',
       caption: 'Rafiki offers a haven for anonymous communication',
       description:
@@ -145,7 +142,7 @@ export default {
     {
       tag: 'Flask',
       image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1617264239/tweet_lxdnqa.png',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627105594/tweet_olgnv5.webm',
       title: 'ZUP',
       caption: 'Zup is a Twitter sentiment analysis ',
       description:
@@ -164,7 +161,7 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1617264239/tough_dfprrp.png',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627105154/rafikiv2_ohh0ra.webm',
       title: 'Tough Arc',
       caption: 'Tough Arc is a kenyan based manga',
       description:
@@ -180,7 +177,7 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/image/upload/v1617264249/narutopia_nix88h.png',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627105042/narutopia_kbxwqx.mp4',
       title: 'Narutopia',
       caption: 'Narutopia is a netflix clone that streams Naruto epsiodes',
       description: 'Narutopia is a netflix clone that streams Naruto epsiodes',
@@ -191,6 +188,29 @@ export default {
           icon: <GitHubIcon />,
         },
       ],
+    },
+
+    {
+      tag: 'React',
+      image:
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627105154/rafikiv2_ohh0ra.webm',
+      title: 'Rafiki V2',
+      caption: 'anonymous communication',
+      description:
+        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
+
+      links: [{ link: 'https://rafiki.netlify.app/', icon: <LinkIcon /> }],
+    },
+
+    {
+      tag: 'React',
+      image:
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627104964/art_dk9juw.webm',
+      title: 'Digital Gallery',
+      caption: 'Digital Gallery',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      links: [{ link: 'https://ngallery.netlify.app/', icon: <LinkIcon /> }],
     },
   ],
 }

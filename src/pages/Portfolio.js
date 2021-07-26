@@ -5,13 +5,14 @@ import {
   Tab,
   Grow,
   Card,
-  CardActionArea,
+  CardActions,
   CardMedia,
   CardContent,
   Dialog,
   DialogTitle,
   DialogContent,
   DialogActions,
+  CardActionArea,
 } from '@material-ui/core'
 import React, { useState } from 'react'
 import '../assets/css/Profile.css'
@@ -21,11 +22,6 @@ const Portfolio = () => {
   const [projectDialog, setProjectDialog] = useState(false)
   return (
     <Grid container spacing={1} className='section pb_45 pt_45'>
-      {/* Title */}
-      <Grid item className='section title mb_20'>
-        <span></span>
-        <h6 className='section_title'>Portfolio</h6>
-      </Grid>
       <Grid item xs={12}>
         <Tabs
           value={tabValue}
@@ -60,20 +56,25 @@ const Portfolio = () => {
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>
-                        <CardMedia
-                          className='card_img'
-                          image={project.image}
+                        {/* <CardMedia
+                         
+                          src={project.image}
                           title={project.title}
-                        />
+                        /> */}
+                        <CardMedia className='card_img'>
+                          <video
+                            width='320'
+                            height='240'
+                            autoPlay
+                            muted
+                            controls
+                          >
+                            <source src={project.image} />
+                          </video>
+                        </CardMedia>
                         <CardContent>
                           <Typography variant='body2' className='card_title'>
                             {project.title}
-                          </Typography>
-                          <Typography
-                            variant='caption'
-                            className='card_caption'
-                          >
-                            {project.caption}
                           </Typography>
                         </CardContent>
                       </CardActionArea>
@@ -94,7 +95,11 @@ const Portfolio = () => {
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
         </DialogTitle>
-        <img src={projectDialog.image} alt='' className='dialog_img' />
+        <CardMedia className='dialog_img'>
+          <video width='100%' height='240' autoPlay muted controls>
+            <source src={projectDialog.image} />
+          </video>
+        </CardMedia>{' '}
         <DialogContent>
           <Typography className='dialog_des'>
             {projectDialog.description}

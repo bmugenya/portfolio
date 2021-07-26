@@ -7,7 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent'
 import TimelineItem from '@material-ui/lab/TimelineItem'
 import SchoolIcon from '@material-ui/icons/School'
 import TimelineDot from '@material-ui/lab/TimelineDot'
-import CustomButton from '../components/Button'
+import Portfolio from './Portfolio'
 import '../assets/css/Resume.css'
 const Resume = () => {
   return (
@@ -29,62 +29,11 @@ const Resume = () => {
       <Grid container className='section pb_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
-          <h6 className='section_text'>Resume</h6>
+          <h6 className='section_text'>Portfolio</h6>
         </Grid>
 
         <Grid item xs={12}>
-          <Grid container className='resume_timeline'>
-            <Grid item sm={12} md={6}>
-              <CustomTimeline
-                title='Certifications'
-                icon={<VerifiedUserIcon />}
-              >
-                {data.certifications.map((certification) => (
-                  <TimelineItem>
-                    <CustomTimelineSeparator />
-                    <TimelineContent class_name='timeline_content'>
-                      <Typography className='timeline_title'>
-                        {certification.title}
-                      </Typography>
-                      <Typography variant='captain' className='timeline_date'>
-                        {certification.date}
-                      </Typography>
-                      <Typography
-                        variant='body2'
-                        className='timeline_description'
-                      >
-                        {certification.description}
-                      </Typography>
-                    </TimelineContent>
-                  </TimelineItem>
-                ))}
-              </CustomTimeline>
-            </Grid>
-            {/* Education */}
-            <Grid item sm={12} md={6}>
-              <CustomTimeline title='Education' icon={<SchoolIcon />}>
-                {data.education.map((school) => (
-                  <TimelineItem>
-                    <CustomTimelineSeparator />
-                    <TimelineContent class_name='timeline_content'>
-                      <Typography className='timeline_title'>
-                        {school.title}
-                      </Typography>
-                      <Typography variant='captain' className='timeline_date'>
-                        {school.date}
-                      </Typography>
-                      <Typography
-                        variant='body2'
-                        className='timeline_description'
-                      >
-                        {school.description}
-                      </Typography>
-                    </TimelineContent>
-                  </TimelineItem>
-                ))}
-              </CustomTimeline>
-            </Grid>
-          </Grid>
+          <Portfolio />
         </Grid>
       </Grid>
       {/* Service */}
@@ -116,7 +65,7 @@ const Resume = () => {
       </Grid>
       {/* Skills */}
 
-      <Grid container className='section graybg pb_45  p_50'>
+      <Grid container className='section pb_45  p_50'>
         <span></span>
         <h5 className='section_title'>Stacks</h5>
         <Grid item xs={12}>

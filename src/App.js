@@ -2,7 +2,6 @@ import { Container, Grid } from '@material-ui/core'
 import './App.css'
 import Header from './components/Header'
 import Profile from './components/Profile'
-import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
 import Footer from './components/Footer'
 
@@ -18,14 +17,7 @@ function App() {
           <Router>
             <Header />
             <div className='main_content container_shadow'>
-              <Switch>
-                <Route path='/portfolio'>
-                  <Portfolio />
-                </Route>
-                <Route path='/'>
-                  <Resume />
-                </Route>
-              </Switch>
+              <Resume />
             </div>
           </Router>
 
