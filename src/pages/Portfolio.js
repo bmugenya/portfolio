@@ -56,14 +56,9 @@ const Portfolio = () => {
                       onClick={() => setProjectDialog(project)}
                     >
                       <CardActionArea>
-                        {/* <CardMedia
-                         
-                          src={project.image}
-                          title={project.title}
-                        /> */}
                         <CardMedia className='card_img'>
                           <video
-                            width='320'
+                            width='100%'
                             height='240'
                             autoPlay
                             muted

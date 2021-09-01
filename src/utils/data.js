@@ -17,7 +17,7 @@ export default {
   socials: {
     talents: {
       text: 'Three of my top Talents.',
-      link: 'https://secure.plum.io/en/p/g5Wx3lfhJjj_JR-YvTmjMg/top-talents',
+      link: 'https://secure.plum.io/en/p/g5Wx3lfhJjj_JR-YvTmjMg',
       icon: <StarsIcon />,
     },
     facebook: {
@@ -101,7 +101,7 @@ export default {
     {
       title: 'OUTCOME OWNER',
       description:
-        'I have the ability to set goals, monitor progress, and take the initiative to improve your work and persevering even when initially unsuccessful.',
+        'I have the ability to set goals, monitor progress, and take the initiative to improve my work and persevering even when initially unsuccessful.',
       icon: 'https://secure.plum.io/static/common/dimensions/309/color/execution.svg',
     },
   ],
@@ -161,7 +161,7 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/video/upload/v1627105154/rafikiv2_ohh0ra.webm',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1627445117/tough_dzvoox.webm',
       title: 'Tough Arc',
       caption: 'Tough Arc is a kenyan based manga',
       description:
@@ -170,6 +170,23 @@ export default {
         { link: 'https://tough.netlify.app/', icon: <LinkIcon /> },
         {
           link: 'https://github.com/bmugenya/Tough-Arch',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+
+        {
+      tag: 'React',
+      image:
+        'https://res.cloudinary.com/doammcpie/video/upload/v1630469462/chuckTopia_ggewmt.mp4',
+      title: 'ChuckTopia',
+      caption: 'A Single Page application that consumes API from chucknorris.io',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+      links: [
+        { link: 'https://bmugenya.github.io/DAP/', icon: <LinkIcon /> },
+        {
+          link: 'https://github.com/bmugenya/DAP',
           icon: <GitHubIcon />,
         },
       ],
