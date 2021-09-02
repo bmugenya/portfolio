@@ -210,7 +210,7 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/video/upload/v1627105154/rafikiv2_ohh0ra.webm',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1630620457/rafiki_l2tdwj.mp4',
       title: 'Rafiki V2',
       caption: 'anonymous communication',
       description:
