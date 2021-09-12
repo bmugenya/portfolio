@@ -161,7 +161,7 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/video/upload/v1627445117/tough_dzvoox.webm',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1631423190/tough_gfioh6.mp4',
       title: 'Tough Arc',
       caption: 'Tough Arc is a kenyan based manga',
       description:
