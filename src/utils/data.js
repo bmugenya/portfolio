@@ -4,22 +4,17 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import GradeIcon from '@material-ui/icons/Grade'
-import StarsIcon from '@material-ui/icons/Stars'
 import LinkIcon from '@material-ui/icons/Link'
+
 export default {
   name: 'Brian Mugenya',
-  title: 'Full stack developer',
+  title: 'Software Developer',
   birthday: '26th November 1995',
   email: 'bmugenya26@gmail.com',
   phone: '+254 700577453',
   address: 'Nairobi, Kenya',
 
   socials: {
-    talents: {
-      text: 'Three of my top Talents.',
-      link: 'https://secure.plum.io/en/p/g5Wx3lfhJjj_JR-YvTmjMg',
-      icon: <StarsIcon />,
-    },
     facebook: {
       link: 'https://www.facebook.com/misty.builder',
       text: 'Friend me on Facebook',
@@ -46,6 +41,7 @@ export default {
       text: 'Find my badges on Acclaim',
       icon: <GradeIcon />,
     },
+ 
   },
   about:
     'I have a proficiency of bringing others together to resolve conflicts and reconciling differences through negotiation. I am calm and collected even under stressful situations .I am strongly passionate about innovative ideas and problem-solving using programming technologies.conscious\nI am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.',
@@ -108,37 +104,22 @@ export default {
   skills: [
     {
       title: 'FRONT-END',
-      description: ['ReactJs', 'Javascript', 'Bootsrap', 'Material UI'],
+      description: ['I wrote my first code in javascript.I have hands on experience and I have build several front end projects using vanila javascript as well as React.js'],
     },
     {
       title: 'BACK-END',
-      description: ['Flask', 'ExpressJS', 'Javascript', 'Php'],
+      description: ['I gained a good experience with PHP while I was in school.Some of the projects i did included a login form to an ecommerce platform.I also have a good foundation with python and javascript'],
     },
     {
       title: 'DATABASE',
-      description: ['PostgreSQL', ' MySQL', 'SqlAlchemy', ' MongoDB'],
+      description: ['I am higly skilled in SQL.I have created database managment systems that handles inventories,I have also integrtated the database functionality with web applications'  ],
+    },
+    {
+      title: 'Talent',
+      description: ['I am able to build positive relationships by providing support, committing to team goals, and make others feel appreciated.I am excellent at overcoming obstacles.Im Strong at remaining calm and operating effectively under pressure and multiple demands. I have the ability to set goals, monitor progress, and take the initiative to improve my work and persevering even when initially unsuccessful.'  ],
     },
   ],
   projects: [
-    {
-      tag: 'Flask',
-      image:
-        'https://res.cloudinary.com/doammcpie/video/upload/v1627105121/rafiki_oa6tqk.webm',
-      title: 'Rafiki',
-      caption: 'Rafiki offers a haven for anonymous communication',
-      description:
-        "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",
-      links: [
-        {
-          link: 'https://rafiki-app.herokuapp.com/rafiki/',
-          icon: <LinkIcon />,
-        },
-        {
-          link: 'https://github.com/bmugenya/Rafiki',
-          icon: <GitHubIcon />,
-        },
-      ],
-    },
     {
       tag: 'Flask',
       image:
@@ -211,7 +192,7 @@ export default {
       tag: 'React',
       image:
         'https://res.cloudinary.com/doammcpie/video/upload/v1630620457/rafiki_l2tdwj.mp4',
-      title: 'Rafiki V2',
+      title: 'Rafiki',
       caption: 'anonymous communication',
       description:
         "Rafiki offers a haven for anonymous communication inorder to eradicate fear of judgment and encourage openness. Rafiki's existence was brought about due to the alarming rate of internal suffering . Rafiki consist of highly experienced counsellors and occupational health therapists as well as friends who will listen because its time you let someone know",

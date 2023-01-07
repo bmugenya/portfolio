@@ -3,9 +3,11 @@ import './App.css'
 import Header from './components/Header'
 import Profile from './components/Profile'
 import Resume from './pages/Resume'
+import Portfolio from './pages/Portfolio'
 import Footer from './components/Footer'
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 function App() {
   return (
     <Container className={'top_60'}>
@@ -14,13 +16,17 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-          <Router>
+          
+            <Router>
             <Header />
             <div className='main_content container_shadow'>
-              <Resume />
-            </div>
-          </Router>
-
+              <Routes>
+                <Route exact path='/' element={<Resume />} />
+                <Route exact path='/portfolio' element={<Portfolio />} />
+              </Routes>
+              </div>
+            </Router>
+         
           <Footer />
         </Grid>
       </Grid>

@@ -10,6 +10,7 @@
 .header .header_link {
   font-weight: 500;
   color: black !important;
+  margin: 5px;
 }
 
 .header .header_link:hover {
@@ -45,3 +46,9 @@
 /* .header .header_navlink {
   padding: 0;
 } */
+
+
+.wh-color{
+  color: white;
+
+}

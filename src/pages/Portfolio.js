@@ -22,28 +22,8 @@ const Portfolio = () => {
   const [projectDialog, setProjectDialog] = useState(false)
   return (
     <Grid container spacing={1} className='section pb_45 pt_45'>
-      <Grid item xs={12}>
-        <Tabs
-          value={tabValue}
-          indicatorColor='white'
-          className='custom_tabs'
-          onChange={(event, newValue) => setTabValue(newValue)}
-        >
-          <Tab
-            label='All'
-            value='All'
-            className={tabValue == 'All' ? 'custom_tabs active' : 'custom_tab'}
-          />
-          {[...new Set(data.projects.map((item) => item.tag))].map((tag) => (
-            <Tab
-              label={tag}
-              value={tag}
-              className={tabValue == 'All' ? 'custom_active' : 'custom_tabs'}
-            />
-          ))}
-        </Tabs>
-      </Grid>
-      {/* Projects */}
+      
+      
       <Grid item xs={12}>
         <Grid container spacing={2}>
           {data.projects.map((project) => (
