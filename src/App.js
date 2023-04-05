@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <Container className={'top_60'}>
-      <Grid container spacing={7}>
+      <Grid container spacing={5}>
         <Grid item xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>

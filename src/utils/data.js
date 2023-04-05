@@ -43,8 +43,8 @@ export default {
     },
  
   },
-  about:
-    'I have a proficiency of bringing others together to resolve conflicts and reconciling differences through negotiation. I am calm and collected even under stressful situations .I am strongly passionate about innovative ideas and problem-solving using programming technologies.conscious\nI am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.',
+
+  about:"I am a software developer with a passion for building scalable and secure applications. I have developed several projects over the years, where I have gained experience in programming languages such as PHP, JavaScript and Python, as well as frameworks like React and Flask. I enjoy analyzing complex problems and breaking them down into smaller components to develop effective solutions. \n\n I am a team player who enjoys collaborating with others to achieve project goals. I understand the importance of clear communication and effective collaboration to ensure project success. I am strongly passionate about innovative ideas and problem-solving using programming technologies. I am a time conscious, self-driven Individual who is eager to learn and apply new skills and knowledge to the work place. My open minded nature allows me to work in a multi-cultural team and adapt to new cultures.",
 
   certifications: [
     {
@@ -104,15 +104,15 @@ export default {
   skills: [
     {
       title: 'FRONT-END',
-      description: ['I wrote my first code in javascript.I have hands on experience and I have build several front end projects using vanila javascript as well as React.js'],
+      description: ["I wrote my first code in javascript and along the way I developed a strong understanding of HTML and CSS.Since I already knew javascript I could make the websites interactive and engaing.I am have a big fan of React.js as it makes it easier to create dynamic user interfaces. I also follow the responsive design principles to ensure that the website looks great on desktop, tablet, and mobile devices."],
     },
     {
       title: 'BACK-END',
-      description: ['I gained a good experience with PHP while I was in school.Some of the projects i did included a login form to an ecommerce platform.I also have a good foundation with python and javascript'],
+      description: ['I gained a good experience with PHP while I was in school.Some of the projects I did included a login form to an ecommerce platform.I also have a good foundation with python and javascript.I now design and create backend architecture that are secure and protect user data and prevents attacks. I am familiar with authentication and authorization protocols as well as security measures like encryption and tokenization.  '],
     },
     {
       title: 'DATABASE',
-      description: ['I am higly skilled in SQL.I have created database managment systems that handles inventories,I have also integrtated the database functionality with web applications'  ],
+      description: ['I am skilled in database management,using SQL I can create and design efficient and effective database structures.I have created database managment systems that handles stores large amounts of data. I have also integrtated the database functionality with web applications. I am also  familiar with popular database management systems like MySQL and PostgreSQL'  ],
     },
     {
       title: 'Talent',
@@ -209,6 +209,23 @@ export default {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
       links: [{ link: 'https://ngallery.netlify.app/', icon: <LinkIcon /> }],
+    },
+
+        {
+      tag: 'Flask',
+      image:
+        'https://res.cloudinary.com/doammcpie/video/upload/v1680690846/Alsmotors_wtsojl.webm',
+      title: 'Alsmotors',
+      caption: 'Alsmotors a car dealership',
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      links: [
+     
+        {
+          link: 'https://alsmotors-2mlm.onrender.com',
+          icon: <LinkIcon />,
+        },
+      ],
     },
   ],
 }

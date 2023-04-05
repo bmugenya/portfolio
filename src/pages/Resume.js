@@ -10,7 +10,7 @@ const Resume = () => {
       <Grid container className='section pb_45 pt_45'>
         <Grid item className='section_title mb_30'>
           <span></span>
-          <h6 className='section_text'>About Me</h6>
+          <h6 className='section_text'>About Me 👋</h6>
         </Grid>
 
         <Grid item xs={12}>

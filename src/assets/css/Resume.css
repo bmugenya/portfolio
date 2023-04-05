@@ -1,7 +1,8 @@
 .about_text {
   color: black;
   font: smaller;
-  line-height: 22px;
+ line-height: 1.625;
+font-weight: 300;
   white-space: pre-line;
 }
 
@@ -34,6 +35,8 @@
 
 .service .service_description {
   color: #333;
+   line-height: 1.625;
+font-weight: 300;
 
   border-color: var(--main-color);
   margin-right: 5px;
@@ -68,8 +71,9 @@
   display: flex !important;
   align-items: center;
   color: black;
-  font-weight: 400;
-  line-height: 18px;
+   line-height: 1.625;
+font-weight: 300;
+ 
 }
 
 .skill .skill_description .timeline_dot {

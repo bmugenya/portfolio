@@ -11,7 +11,13 @@
   font-weight: 500;
   color: black !important;
   margin: 5px;
+  text-decoration: none;
 }
+
+ a:hover {
+  text-decoration: none;
+}
+
 
 .header .header_link:hover {
   color: var(--main-color) !important;
