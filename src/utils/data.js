@@ -222,7 +222,26 @@ export default {
       links: [
      
         {
-          link: 'https://alsmotors-2mlm.onrender.com',
+          link: 'https://alsmotors.onrender.com',
+          icon: <LinkIcon />,
+        },
+      ],
+    },
+
+
+
+        {
+      tag: 'React',
+      image:
+        'https://res.cloudinary.com/doammcpie/video/upload/v1684459120/Diani_Konnect_2_hpmmxb.mp4',
+      title: 'Diani Konnect',
+      caption: 'Diani Konnect',
+      description:
+        "Diani Beach is a stunning South Coast destination in Kwale County, known for its vast coastline and breathtaking beaches.",
+      links: [
+     
+        {
+          link: 'https://dianikonnect.vercel.app/',
           icon: <LinkIcon />,
         },
       ],
