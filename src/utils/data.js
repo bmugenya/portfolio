@@ -203,12 +203,12 @@ export default {
     {
       tag: 'React',
       image:
-        'https://res.cloudinary.com/doammcpie/video/upload/v1627104964/art_dk9juw.webm',
-      title: 'Digital Gallery',
-      caption: 'Digital Gallery',
+        'https://res.cloudinary.com/doammcpie/video/upload/v1685289303/Juliarts_pdjtbw.webm',
+      title: 'JuliArt',
+      caption: 'JuliArt',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      links: [{ link: 'https://ngallery.netlify.app/', icon: <LinkIcon /> }],
+      links: [{ link: 'https://juliarts.vercel.app/', icon: <LinkIcon /> }],
     },
 
         {
