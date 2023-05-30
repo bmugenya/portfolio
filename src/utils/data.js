@@ -176,11 +176,11 @@ export default {
       tag: 'React',
       image:
         'https://res.cloudinary.com/doammcpie/video/upload/v1627105042/narutopia_kbxwqx.mp4',
-      title: 'Narutopia',
-      caption: 'Narutopia is a netflix clone that streams Naruto epsiodes',
-      description: 'Narutopia is a netflix clone that streams Naruto epsiodes',
+      title: 'TrailerPeak',
+      caption: 'TrailerPeak offers a personalized and immersive movie trailer experience',
+      description: 'TrailerPeak offers a personalized and immersive movie trailer experience, catering to the diverse tastes and preferences of film enthusiasts. The website utilizes advanced recommendation algorithms to curate a tailored selection of trailers based on users' viewing history, genre preferences, and ratings. By delivering highly relevant and intriguing trailers, TrailerPeak ensures users discover new movies that resonate with their individual interests.',
       links: [
-        { link: 'https://narutopia.netlify.app/', icon: <LinkIcon /> },
+        { link: 'https://narutopia-z9c7.vercel.app', icon: <LinkIcon /> },
         {
           link: 'https://github.com/bmugenya/Narutopia',
           icon: <GitHubIcon />,
