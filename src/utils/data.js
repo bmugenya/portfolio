@@ -178,11 +178,11 @@ export default {
         'https://res.cloudinary.com/doammcpie/video/upload/v1627105042/narutopia_kbxwqx.mp4',
       title: 'TrailerPeak',
       caption: 'TrailerPeak offers a personalized and immersive movie trailer experience',
-      description: 'TrailerPeak offers a personalized and immersive movie trailer experience, catering to the diverse tastes and preferences of film enthusiasts. The website utilizes advanced recommendation algorithms to curate a tailored selection of trailers based on users' viewing history, genre preferences, and ratings. By delivering highly relevant and intriguing trailers, TrailerPeak ensures users discover new movies that resonate with their individual interests.',
+      description: 'TrailerPeak offers a personalized and immersive movie trailer experience, catering to the diverse tastes and preferences of film enthusiasts. The website utilizes advanced recommendation algorithms to curate a tailored selection of trailers based on users viewing history, genre preferences, and ratings. By delivering highly relevant and intriguing trailers, TrailerPeak ensures users discover new movies that resonate with their individual interests.',
       links: [
-        { link: 'https://narutopia-z9c7.vercel.app', icon: <LinkIcon /> },
+        { link: 'https://trailerpeak.app', icon: <LinkIcon /> },
         {
-          link: 'https://github.com/bmugenya/Narutopia',
+          link: 'https://github.com/bmugenya/trailerpeak',
           icon: <GitHubIcon />,
         },
       ],
@@ -246,5 +246,23 @@ export default {
         },
       ],
     },
+
+          {
+      tag: 'React',
+      image:
+        'https://www.awesomescreenshot.com/video/18980538?key=0545706188190d43fbc42bbd7293aecd',
+      title: 'Schoolia',
+      caption: 'Schoolia',
+      description:
+        "Schoolia is a comprehensive and user-friendly school management system designed to optimize administrative processes and automate essential tasks. With a range of essential functionalities, this software empowers educational institutions in Kenya to efficiently manage student information, admissions, timetables, attendance tracking, fee management, staff information, and more.",
+      links: [
+     
+        {
+          link: 'https://schoolnett.netlify.app/',
+          icon: <LinkIcon />,
+        },
+      ],
+    },
+    
   ],
 }
